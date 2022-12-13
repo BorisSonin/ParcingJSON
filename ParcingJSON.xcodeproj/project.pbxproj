@@ -13,6 +13,7 @@
 		C7223EE32948D4EB00152569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7223EE12948D4EB00152569 /* Main.storyboard */; };
 		C7223EE52948D4EC00152569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7223EE42948D4EC00152569 /* Assets.xcassets */; };
 		C7223EE82948D4EC00152569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7223EE62948D4EC00152569 /* LaunchScreen.storyboard */; };
+		C7223EF02948D7AC00152569 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7223EEF2948D7AC00152569 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C7223EE42948D4EC00152569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7223EE72948D4EC00152569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7223EE92948D4EC00152569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7223EEF2948D7AC00152569 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		C7223EDA2948D4EB00152569 /* ParcingJSON */ = {
 			isa = PBXGroup;
 			children = (
-				C7223EDB2948D4EB00152569 /* AppDelegate.swift */,
-				C7223EDD2948D4EB00152569 /* SceneDelegate.swift */,
-				C7223EDF2948D4EB00152569 /* ViewController.swift */,
-				C7223EE12948D4EB00152569 /* Main.storyboard */,
+				C7223EF42948D83400152569 /* App */,
+				C7223EF12948D7B500152569 /* Models */,
+				C7223EF32948D7FD00152569 /* ViewControllers */,
+				C7223EF22948D7D800152569 /* Storyboards */,
 				C7223EE42948D4EC00152569 /* Assets.xcassets */,
-				C7223EE62948D4EC00152569 /* LaunchScreen.storyboard */,
-				C7223EE92948D4EC00152569 /* Info.plist */,
 			);
 			path = ParcingJSON;
+			sourceTree = "<group>";
+		};
+		C7223EF12948D7B500152569 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7223EEF2948D7AC00152569 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7223EF22948D7D800152569 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C7223EE12948D4EB00152569 /* Main.storyboard */,
+				C7223EE62948D4EC00152569 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C7223EF32948D7FD00152569 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7223EDF2948D4EB00152569 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C7223EF42948D83400152569 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C7223EDB2948D4EB00152569 /* AppDelegate.swift */,
+				C7223EDD2948D4EB00152569 /* SceneDelegate.swift */,
+				C7223EE92948D4EC00152569 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +176,7 @@
 				C7223EE02948D4EB00152569 /* ViewController.swift in Sources */,
 				C7223EDC2948D4EB00152569 /* AppDelegate.swift in Sources */,
 				C7223EDE2948D4EB00152569 /* SceneDelegate.swift in Sources */,
+				C7223EF02948D7AC00152569 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUFA4PQFA7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ParcingJSON/Info.plist;
+				INFOPLIST_FILE = "/Users/borissonin/Downloads/Программирование/ParcingJSON/ParcingJSON/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUFA4PQFA7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ParcingJSON/Info.plist;
+				INFOPLIST_FILE = "/Users/borissonin/Downloads/Программирование/ParcingJSON/ParcingJSON/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
